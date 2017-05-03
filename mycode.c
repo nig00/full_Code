@@ -28,7 +28,7 @@
 #define CS_MCP3208  8       // BCM_GPIO8
 
 #define SPI_CHANNEL 0
-#define SPI_SPEED   100000  // !! Start low here and if all works try to increase if needed on a breadboard I could go upto about 750000 
+#define SPI_SPEED   100000  // !! Start low here and if all works try to increase if needed I could go upto about 750000 
 /////////////////////     READ ADC VALUES  ///////////////////////////////////
 int read_mcp3208_adc(unsigned char adcChannel)
 {
